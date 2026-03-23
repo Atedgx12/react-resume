@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import ParticleCanvas from './components/ParticleCanvas';
 import Hero from './components/Hero';
 import About from './components/About';
+import ValueProposition from './components/ValueProposition';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -35,6 +36,7 @@ function App() {
       </header>
       <main>
         <About data={resumeData} />
+        <ValueProposition data={resumeData.valueProposition} />
         <Experience data={resumeData.experience} />
         <Skills data={resumeData.skills} />
         <Projects data={resumeData.projects} />

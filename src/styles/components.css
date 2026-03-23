@@ -2,6 +2,53 @@
    COMPONENT STYLES
    ============================================ */
 
+/* ===== VALUE PROPOSITION ===== */
+.value-proposition-section {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.05), rgba(138, 43, 226, 0.05));
+  border-top: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.value-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 212, 255, 0.15);
+  border-radius: 12px;
+  padding: 1.8rem;
+  transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 8px 30px rgba(0, 212, 255, 0.12);
+}
+
+.value-card-icon {
+  font-size: 1.8rem;
+  color: var(--accent);
+  margin-bottom: 0.8rem;
+}
+
+.value-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--heading);
+  margin-bottom: 0.6rem;
+}
+
+.value-card-detail {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-secondary, #adb5bd);
+}
+
 /* ===== NAVBAR ===== */
 .nav {
   position: fixed;

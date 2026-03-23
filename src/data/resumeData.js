@@ -1,8 +1,8 @@
 const resumeData = {
   personalInfo: {
     fullName: "Zachary Powell",
-    title: "Software Engineer | AI Engineer | Navy Veteran",
-    tagline: "Co-Founder, Nomadic Tech Co · MCS Student, Rice University · 8-Year Navy Veteran",
+    title: "Senior Software Engineer | AI Engineer | Navy Veteran",
+    tagline: "Co-Founder, Nomadic Tech Co · MCS in AI, Rice University · 8-Year Navy Veteran",
     email: "zpowell@nomadictechco.com",
     phone: "+1 512-730-9680",
     location: "6767 Wayman Ridge, San Antonio, TX, Open to Remote",
@@ -13,7 +13,29 @@ const resumeData = {
     resume: "https://atedgx12.github.io/react-resume/",
   },
 
-  summary: `Full-stack Software Engineer and AI practitioner with 8+ years of military-grade discipline from the U.S. Navy, combined with hands-on experience founding and scaling a software consultancy. Currently pursuing a Master of Computer Science with an AI concentration at Rice University while delivering production software across AI/ML, distributed systems, and full-stack web applications. Proven track record of architecting and shipping 15+ client and personal projects, from FERPA-compliant education portals to distributed AI agent infrastructure. Seeking a remote Software Engineering, AI Engineering, IT, or Consulting role where I can drive real impact through innovative, scalable solutions.`,
+  summary: `Senior-level Software Engineer and AI practitioner with 8+ years of military-grade discipline from the U.S. Navy, combined with hands-on experience founding and scaling a software consultancy. Currently completing a Master of Computer Science with an AI concentration at Rice University, a Top 20 CS program, while delivering production software across AI/ML, distributed systems, and full-stack web applications. Proven track record of architecting and shipping 15+ client and personal projects, from FERPA-compliant education portals to distributed AI agent infrastructure. Seeking a Senior or Lead remote Software Engineering, AI Engineering, or Solutions Architect role where I can drive real impact through innovative, scalable solutions.`,
+
+  valueProposition: {
+    headline: "Why Senior-Level from Day One",
+    points: [
+      {
+        title: "Rice University AI Premium",
+        detail: "Master of Computer Science with AI concentration from a consistently Top 20 CS program. Over 50% of Rice engineering graduates report starting base salaries above $100K. The AI specialization places me in the Computer Scientist bracket with a national median of $136,620.",
+      },
+      {
+        title: "8 Years of Military Leadership",
+        detail: "Aviation Electronic Technician on MH-60S helicopters in the U.S. Navy. Diagnosed and maintained complex avionics systems in zero-error environments. Secret security clearance holder. Military discipline and systematic problem-solving translate directly to engineering leadership.",
+      },
+      {
+        title: "Proven Technical Founder",
+        detail: "Co-founded Nomadic Tech Co and delivered 15+ production projects across healthcare, education, legal, and fintech. Built enterprise AI infrastructure including multi-agent orchestration, AI content authenticity detection, and multi-tenant LLM servers. Full lifecycle ownership from pitch to production.",
+      },
+      {
+        title: "Degree + Experience Multiplier",
+        detail: "A Master's in AI typically adds a 20-35% salary premium over a Bachelor's alone. Combined with a B.S. in Software Engineering and professional SWE experience, the floor for this profile is $115K with total compensation packages clearing $140K-185K for Senior AI/SWE roles.",
+      },
+    ],
+  },
 
   narrative: {
     intro: `My path into technology wasn't linear. It was forged through military service, entrepreneurial grit, and an insatiable curiosity for how systems work, from silicon to software.`,
