@@ -10,6 +10,7 @@ const resumeData = {
     github: "https://github.com/Atedgx12",
     githubOrg: "https://github.com/nomadictechco",
     website: "https://nomadictechco.com",
+    resume: "https://atedgx12.github.io/react-resume/",
   },
 
   summary: `Full-stack Software Engineer and AI practitioner with 8+ years of military-grade discipline from the U.S. Navy, combined with hands-on experience founding and scaling a software consultancy. Currently pursuing a Master of Computer Science with an AI concentration at Rice University while delivering production software across AI/ML, distributed systems, and full-stack web applications. Proven track record of architecting and shipping 15+ client and personal projects, from FERPA-compliant education portals to distributed AI agent infrastructure. Seeking a remote Software Engineering, AI Engineering, IT, or Consulting role where I can drive real impact through innovative, scalable solutions.`,

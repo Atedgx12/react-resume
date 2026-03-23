@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaMapMarkerAlt, FaGlobe } from 'react-icons/fa';
 import InterestButton from './InterestButton';
 
 export default function Contact({ data }) {
@@ -34,6 +34,13 @@ export default function Contact({ data }) {
             <div>
               <p className="contact-label">GitHub</p>
               <p className="contact-value">Atedgx12 / nomadictechco</p>
+            </div>
+          </a>
+          <a href={data.resume} target="_blank" rel="noopener noreferrer" className="contact-card">
+            <FaGlobe className="contact-icon" />
+            <div>
+              <p className="contact-label">Interactive Resume</p>
+              <p className="contact-value">atedgx12.github.io/react-resume</p>
             </div>
           </a>
           <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(data.location)}`} target="_blank" rel="noopener noreferrer" className="contact-card">
